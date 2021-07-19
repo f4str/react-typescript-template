@@ -2,7 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-const App = (): React.ReactElement => {
+function App(): React.ReactElement {
   return (
     <div className='App'>
       <header className='App-header'>
@@ -21,6 +21,6 @@ const App = (): React.ReactElement => {
       </header>
     </div>
   );
-};
+}
 
 export default App;
